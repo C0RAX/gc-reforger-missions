@@ -1,5 +1,9 @@
 SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
  coords 2274.804 7.13 2189.581
+ "Active AI limit" 400
+ "Off Road Flags" 14
+ "Price of crossroad on Road network" 0.1
+ "Price of roadnetwork paths" 3
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 2254.857 6.776 2210.408
@@ -28,4 +32,11 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2263.508 6.881 2218.866
+ m_casualtyFlags {
+  TILW_FactionAIKilledFlag "{6512E1BCB937A857}" {
+   m_flagName "nextwave"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.75
+  }
+ }
 }

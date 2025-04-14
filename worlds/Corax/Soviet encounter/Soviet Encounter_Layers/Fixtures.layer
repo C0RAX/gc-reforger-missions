@@ -1,9 +1,9 @@
-GenericEntity : "{0ED7499549352351}Prefabs/Props/Civilian/LampKerosene_01/Dst/LampKerosene_01_DST_01_military.et" {
- coords 2357.242 9 2322.691
-}
 GenericEntity : "{1659C8B77B3059D4}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_01.et" {
  coords 2307.351 9 2298.537
  angleY 59.628
+}
+GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+ coords 2357.11 8.972 2322.666
 }
 StaticModelEntity : "{43FA6039187AAC8B}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Radio_US_01.et" {
  coords 2307.094 9 2308.726
@@ -35,12 +35,26 @@ $grp GenericEntity : "{49BADB64F2031FAD}PrefabsEditable/Auto/Props/Military/Ammo
      }
     }
    }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.5 0
+      }
+      Radius 1
+     }
+    }
+   }
   }
   coords 2357.833 9 2321.192
   angleY 41.604
  }
  {
   components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
@@ -61,6 +75,17 @@ $grp GenericEntity : "{49BADB64F2031FAD}PrefabsEditable/Auto/Props/Military/Ammo
        Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
       }
       NumSlots 300
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.5 0
+      }
+      Radius 1
      }
     }
    }
@@ -110,23 +135,41 @@ $grp GenericEntity : "{49BADB64F2031FAD}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{650E1896631BD742}" {
       SlotTemplate InventoryStorageSlot GPMG {
-       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
       }
-      NumSlots 150
+      NumSlots 100
      }
      MultiSlotConfiguration "{650E1896635D80E1}" {
       SlotTemplate InventoryStorageSlot slr {
-       Prefab "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+       Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
       }
-      NumSlots 500
+      NumSlots 10
      }
      MultiSlotConfiguration "{650E18966FBA2FD8}" {
       SlotTemplate InventoryStorageSlot sterling {
        Prefab "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
       }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6514EB7C91447857}" {
+      SlotTemplate InventoryStorageSlot wp {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 100
      }
     }
     m_fMaxWeight 30
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.5 0
+      }
+      Radius 1
+     }
+    }
    }
   }
   coords 2356.603 9 2322.203

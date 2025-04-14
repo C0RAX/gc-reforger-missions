@@ -4,13 +4,16 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
   CompletionRadius 40
  }
  btnbtrfm1c {
-  coords 2724.552 12.125 2530.239
+  coords 2723.108 12.125 2522.601
   CompletionRadius 40
  }
  btnbtrfm1r {
   coords 2719.947 14.054 2601.859
   CompletionRadius 40
  }
+}
+GenericEntity : "{6B8EE808E69A69E0}Prefabs/Weapons/Warheads/Warhead_Shell_HE_M821.et" {
+ coords 2796.08 12.632 2451.692
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  vanguardbtr10 {
@@ -384,6 +387,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
 }
+Projectile : "{8AEB3E3846780747}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821_EffectModule.et" {
+ coords 2791.755 12.566 2469.635
+}
 $grp GenericEntity : "{E54FEBE04DBDD4CE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Large_US.et" {
  {
   components {
@@ -424,6 +430,19 @@ $grp GenericEntity : "{E54FEBE04DBDD4CE}PrefabsEditable/EffectsModules/Mine/Effe
    }
   }
   coords 2734.916 16.175 2309.854
+  angleY 79.158
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 30
+     }
+    }
+   }
+  }
+  coords 2660.756 15.075 2295.09
   angleY 79.158
  }
 }

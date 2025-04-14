@@ -46,7 +46,7 @@ $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
   m_fPriorityLevel 2000
  }
  brdmfm2r {
-  coords 3573.957 25.219 3122.104
+  coords 3568.142 24.731 3151.576
   angleY 178.187
   m_fPriorityLevel 2000
  }
@@ -80,16 +80,6 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
  }
 }
 GenericEntity : "{7D6E2C2759F92647}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Large.et" {
- components {
-  SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-   m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
-    m_sModuleEntityPrefab "{8AEB3E3846780748}Prefabs/Weapons/Ammo/Ammo_Shell_big_EffectModule.et"
-    m_ModuleZoneData SCR_EffectsModulePositionData_Radius "{5CACDA1438FA62C7}" {
-     m_fRadius 100
-    }
-   }
-  }
- }
  coords 2722.898 17.973 2889.794
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
