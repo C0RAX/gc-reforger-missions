@@ -84,9 +84,9 @@ GenericEntity : "{7D6E2C2759F92647}PrefabsEditable/EffectsModules/Mortar/EffectM
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  brdm {
-  coords 4355.263 23.78 3080.625
+  coords 4355.263 23.79 3080.625
   angleY -89.916
-  m_prefab "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+  m_prefab "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et"
   m_crewConfig TILW_CrewConfig "{650ED553BE28CA7C}" {
    m_crewGroups {
     TILW_CrewGroup "{650ED553BD6CE12A}" {
@@ -111,7 +111,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  brdm2 {
   coords 4435.478 23.117 2875.939
   angleY -89.916
-  m_prefab "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+  m_prefab "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et"
   m_waypointNames {
    "brdmfm1c"
   }
@@ -139,7 +139,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  brdm3 {
   coords 4470.034 25.368 2555.943
   angleY -89.916
-  m_prefab "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+  m_prefab "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et"
   m_crewConfig TILW_CrewConfig "{650ED553BE28CA7C}" {
    m_crewGroups {
     TILW_CrewGroup "{650ED553BD6CE12A}" {
@@ -164,7 +164,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  reconbtr1 {
   coords 4512.664 23.051 2568.604
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
   m_spawnTimings {
    120
   }
@@ -206,7 +206,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  reconbtr2 {
   coords 4452.315 23.411 2887.23
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
   m_spawnTimings {
    120
   }

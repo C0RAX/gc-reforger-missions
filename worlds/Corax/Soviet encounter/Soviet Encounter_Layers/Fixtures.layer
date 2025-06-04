@@ -214,6 +214,33 @@ GenericEntity : "{89B5E4FFF711EBEC}Prefabs/Compositions/Misc/SubCompositions/Equ
  coords 2331.449 9 2321.278
  angleY 155.829
 }
+$grp GenericEntity : "{D509D5E7AA748F7C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barricade_Logs_02.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{65831BBBA98CF9FD}" {
+   }
+  }
+  coords 2821.276 16.964 2336.046
+  angleY -103.812
+  angleZ 5.988
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{65831BBBACB1EF2D}" {
+   }
+  }
+  coords 2823.303 17.552 2327.802
+  angleY -103.812
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{65831BBBA2C47F1D}" {
+   }
+  }
+  coords 2825.561 17.556 2318.618
+  angleY -103.812
+ }
+}
 GenericEntity : "{D6D2170EF91BDE4C}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Camo_US_01.et" {
  coords 2311.981 9 2284.789
  angleY 57.543

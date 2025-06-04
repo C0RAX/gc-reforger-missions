@@ -19,7 +19,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr10 {
   coords 3604.974 22.484 2624.093
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -60,7 +60,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr11 {
   coords 3584.59 22.269 2615.382
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -101,7 +101,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr12 {
   coords 3604.315 22.224 2606.127
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -143,7 +143,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr13 {
   coords 3473.013 22.735 2639.053
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -184,7 +184,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr14 {
   coords 3449.839 22.406 2622.028
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -225,7 +225,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr15 {
   coords 3472.252 22.57 2596.705
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -266,7 +266,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr16 {
   coords 3523.252 23.332 2740.244
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -307,7 +307,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr17 {
   coords 3492.533 23.344 2725.09
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
@@ -348,7 +348,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  vanguardbtr18 {
   coords 3521.837 23.155 2707.927
   angleY -89.916
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_spawnTimings {
    1800
   }
